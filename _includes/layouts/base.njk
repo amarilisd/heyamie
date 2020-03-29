@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heyamie</title>
+    <meta name="Description" content="description">
+    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | url }}">Home</a></li>
+        <li>About</li>
+        <li>Writing</li>
+      </ul>
+    </nav>
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
